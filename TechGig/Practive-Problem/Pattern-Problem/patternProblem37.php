@@ -11,9 +11,9 @@
 		for($j=1;$j<2*$i;$j++)
 		{
 			if($j<2*$i-1)
-				echo chr(i+64)." ";
+				echo chr($i+64)." ";
 			else
-				echo chr(i+64);
+				echo chr($i+64);
 		}
 		if(i<n)
 			echo "\n";
