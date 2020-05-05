@@ -11,7 +11,7 @@
 			if($j<5)
 				echo chr($i+64)." ";
 			else
-				echo char($i+64);
+				echo chr($i+64);
 		}
 		if($i<$n)
 			echo "\n";
